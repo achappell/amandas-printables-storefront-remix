@@ -36,4 +36,4 @@ jobs:
           echo PORT=${{ vars.PORT }} >> .env
           echo VENDURE_API_URL=${{ vars.VENDURE_API_URL }} >> .env
     - name: Build App
-      run: npm install && env $(cat .env | grep -v \"#\" | xargs) pm2 startOrReload start.json
+      run: yarn install && env $(cat .env | grep -v \"#\" | xargs) pm2 startOrReload start.json
