@@ -1,0 +1,6 @@
+{
+    "apps": [{
+        "name" : "amandas-printables",
+        "script" : "yarn dev"
+    }]
+}
