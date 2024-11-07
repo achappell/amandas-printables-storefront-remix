@@ -1,6 +1,6 @@
 {
     "apps": [{
-        "name" : "amandas-printables",
+        "name" : "amandas-printables-storefront",
         "script" : "yarn dev"
     }]
 }
